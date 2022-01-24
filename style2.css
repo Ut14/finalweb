@@ -3,7 +3,7 @@ body{
     margin:0;
     font-size: 20px;
     line-height: 2cm;
-    background-color: hsla(0, 0%, 58%, 0.685);
+    background-color: rgba(148, 148, 148, 0.685);
 }
 .container{
     width: 80%;
