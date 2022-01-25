@@ -52,15 +52,18 @@ body{
 }
 .container ul li:hover .dropdown
 {
-    display:block;
+    display: inline-block;
     position: absolute;
-    background-color: blanchedalmond;
+    opacity: 0.5;
     z-index: 2;
 }
+.container ul li:hover .dropdown:hover{
+    opacity: 1;
+}   
 .container ul li:hover .dropdown ul{
     display:block;
-    margin:0;
-    padding: 0;
+    margin:10px;
+
 }
 
 #langnav{
@@ -197,7 +200,7 @@ body{
     color: rgb(12, 11, 11);
     text-align: center;
     font-size: 40px;
-    text-shadow:2px 2px 5px rgb(219, 96, 48);
+    text-shadow:2px 2px 5px rgb(102, 21, 233);
     max-width:100%;
 }
 @media (max-width:600px){
